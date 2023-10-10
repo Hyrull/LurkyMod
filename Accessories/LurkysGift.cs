@@ -1,0 +1,42 @@
+using Terraria;
+using Terraria.ID;
+using Terraria.ModLoader;
+using Microsoft.Xna.Framework;
+using Hyrulish.Accessories;
+
+namespace Hyrulish.Accessories
+{
+	public class LurkysGift : ModItem
+	{
+		public override void SetStaticDefaults()
+		{
+            // DisplayName.SetDefault("Lurky's Gift");
+            // Tooltip.SetDefault("20% increased damage with Lurky's Weapons\n" + "10% critical strike chance with Lurky's Weapons");
+		}
+
+		public override void SetDefaults()
+		{
+			Item.width = 20;
+			Item.height = 20;
+			Item.value = Item.sellPrice(gold: 20);
+			Item.rare = ItemRarityID.Red;
+			Item.accessory = true;
+			        }
+
+        public override void UpdateAccessory(Player player, bool hideVisual)
+        {
+			player.GetModPlayer<GlobalPlayer>().LurkyDmg += 0.20f;
+			player.GetModPlayer<GlobalPlayer>().LurkyCrit += 0.10f;
+        }
+
+
+        public override void AddRecipes()
+		{
+			Recipe recipe = CreateRecipe();
+			recipe.AddIngredient(ModContent.ItemType<LurkyEmblem>(), 1);
+			recipe.AddIngredient(ModContent.ItemType<LurkyManual>(), 1);
+			recipe.AddTile(TileID.TinkerersWorkbench);
+			recipe.Register();
+		}
+	}
+}

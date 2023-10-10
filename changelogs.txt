@@ -1,0 +1,37 @@
+v0.23
+
+
+v0.22
+- Renamed this mod from Hyrulish to Lurky's Mod
+- Ported to tModLoader for Terraria 1.4.4
+
+
+v0.21
+- Renamed "Plasma Gun" to "Lurky's Plasma Gun"
+- Changed Lurky's Plasma Gun sprite
+- Lurky's Plasma Gun now has a custom SFX
+
+- Renamed "Pickamax" to "Pickamaxe". This will break the item from your inventory when updating.
+- Added a proper sprite for the Pickamaxe
+- Added proper stats for the Pickamaxe
+- The Pickamaxe can now be crafted with 1Iron Pickaxe and 25 Bones, at an anvil.
+
+- Lurky's Sword now has same crafting recipe as The Excalibur
+- Lurky's Sword is now 1.5x bigger
+- Lurky's Sword now has the same stats as The Excalibur, with lower damage
+- Lurky's Sword now shoots an Enchanted Beam projectile
+- Lurky's Sword now has VFX when swinging
+- Lurky's Sword now applies the "On Fire!" debuff to enemies
+
+- Added: Lurky's Staff (Weapon). This staff casts an electrosphere
+- Lurky's Staff can be bought from the Wizard for a base price of 40 gold
+
+- Added: Lurky's Emblem (Accessory). While equipped, Lurky's Emblem grants 15% more damage to every "Lurky's -" weapons
+- Lurky's Emblem has a 25% chance to be dropped from the Wall of Flesh (on top of vanilla Emblem drops)
+- Lurky's Emblem can also be crafted by combining one of the four vanilla emblems with 5 Soul of Night and 5 Soul of Light
+
+- Added: Lurky's Manual (Accessory). While equipped, Lurky's Manual grants 10% increased critical strike chance with every "Lurky's -" weapons.
+- Lurky's Manual can be crafted at a mythril or orichalcum anvil, with 1 book and 5 hallowed bars.
+
+- Added: Lurky's Gift (Accessory). While equipped, Lurky's Gift grants 15% increased damage and 10% increased critical strike chance with every "Lurky's -" weapons
+- Lurky's Gift can be crafted at a Tinkerer's Workshop, with 1 Lurky's Gift and 1 Lurky's Manual

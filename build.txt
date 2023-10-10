@@ -1,0 +1,3 @@
+displayName = Lurky's Mod
+author = Hyrul
+version = 0.22

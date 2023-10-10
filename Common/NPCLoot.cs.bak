@@ -1,0 +1,29 @@
+﻿using Terraria;
+using Terraria.ID;
+using Terraria.ModLoader;
+using Microsoft.Xna.Framework;
+using Terraria.GameContent.ItemDropRules;
+using Hyrulish.Items;
+using Hyrulish.Accessories;
+
+namespace Hyrulish.Common;
+
+internal class NPCLoot : GlobalNPC
+{
+    public override void ModifyNPCLoot(NPC npc, Terraria.ModLoader.NPCLoot npcLoot)
+    {
+        if (npc.netID == NPCID.WallofFlesh)
+        {
+            npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<LurkyEmblem>(),4, 1, 1 ));
+        }
+    }
+
+    public override void SetupShop(int type, Chest shop, ref int nextSlot)
+    {
+        if (type == NPCID.Wizard)
+        {
+            if (Main.hardMode)
+                shop.item[nextSlot++].SetDefaults(ModContent.ItemType<LurkyStaff>(), false);
+        }
+    }
+}
