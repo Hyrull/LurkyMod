@@ -9,7 +9,7 @@ namespace Hyrulish.Items
         public override void SetStaticDefaults()
         {
             // DisplayName.SetDefault("Pickamaxe");
-            // Tooltip.SetDefault("Every tool, every time, all at once");
+            // Tooltip.SetDefault("Every tool, every use, all at once");
         }
 
         public override void SetDefaults()

@@ -13,7 +13,7 @@ namespace Hyrulish.Items
 	{
 		public override void SetStaticDefaults()
 		{
-			// DisplayName.SetDefault("Lurk'ys Plasma Gun"); 
+			// DisplayName.SetDefault("Lurky's Plasma Gun"); 
 			// Tooltip.SetDefault("Converts normal bullets into plasma balls");
 		}
 

@@ -1,47 +1,47 @@
 Items: {
 	LurkyEmblem: {
-		DisplayName: Lurky Emblem
+		DisplayName: Lurky's Emblem
 		Tooltip: ""
 	}
 
 	LurkyManual: {
-		DisplayName: Lurky Manual
+		DisplayName: Lurky's Manual
 		Tooltip: ""
 	}
 
 	LurkysGift: {
-		DisplayName: Lurkys Gift
-		Tooltip: ""
+		DisplayName: Lurky's Gift
+		Tooltip: A simple gift
 	}
 
 	LurkyBow: {
-		DisplayName: Lurky Bow
-		Tooltip: ""
+		DisplayName: Lurky's Bow
+		Tooltip: So many grandmas died in the process of making this bow
 	}
 
 	LurkyPickaxe: {
-		DisplayName: Lurky Pickaxe
-		Tooltip: ""
+		DisplayName: Lurky's Pickaxe
+		Tooltip: Casts an electrosphere
 	}
 
 	LurkyStaff: {
-		DisplayName: Lurky Staff
+		DisplayName: Lurky's Staff
 		Tooltip: ""
 	}
 
 	LurkySword: {
-		DisplayName: Lurky Sword
-		Tooltip: ""
+		DisplayName: Lurky's Sword
+		Tooltip: Lurky's hopefully not too overpowered sword
 	}
 
 	Pickamaxe: {
 		DisplayName: Pickamaxe
-		Tooltip: ""
+		Tooltip: Every tool, every use, all at once
 	}
 
 	PlasmaGun: {
 		DisplayName: Plasma Gun
-		Tooltip: ""
+		Tooltip: Converts normal bullets into plasma balls
 	}
 }
 
