@@ -1,5 +1,7 @@
 v0.23
-
+- Updated logo
+- Updated localization
+- Having 30 times the same potion in your inventory grants the buff without using the potion
 
 v0.22
 - Renamed this mod from Hyrulish to Lurky's Mod

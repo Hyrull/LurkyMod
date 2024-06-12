@@ -1,11 +1,9 @@
 using Terraria;
-using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.Audio;
 using Terraria.ModLoader;
 using Microsoft.Xna.Framework;
 using Hyrulish.Projectiles;
-using System.Security.Cryptography.X509Certificates;
 
 namespace Hyrulish.Items
 {

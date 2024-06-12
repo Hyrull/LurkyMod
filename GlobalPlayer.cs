@@ -1,5 +1,3 @@
-using Hyrulish.Items;
-using System.Runtime.InteropServices;
 using Terraria.ModLoader;
 
 namespace Hyrulish
