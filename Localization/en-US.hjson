@@ -21,12 +21,12 @@ Items: {
 
 	LurkyPickaxe: {
 		DisplayName: Lurky's Pickaxe
-		Tooltip: Casts an electrosphere
+		Tooltip: 
 	}
 
 	LurkyStaff: {
 		DisplayName: Lurky's Staff
-		Tooltip: ""
+		Tooltip: "Casts an electrosphere"
 	}
 
 	LurkySword: {

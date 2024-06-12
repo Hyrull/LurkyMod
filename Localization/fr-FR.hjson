@@ -1,0 +1,48 @@
+Items: {
+	LurkyEmblem: {
+		DisplayName: Emblème de Lurky
+		Tooltip: ""
+	}
+
+	LurkyManual: {
+		DisplayName: Manuel de Lurky
+		Tooltip: ""
+	}
+
+	LurkysGift: {
+		DisplayName: Cadeau de Lurky
+		Tooltip: Un simple cadeau
+	}
+
+	LurkyBow: {
+		DisplayName: Arc de Lurky
+		Tooltip: Tant de grand-mères ont souffert pour faire cet arc...
+	}
+
+	LurkyPickaxe: {
+		DisplayName: Pioche de Lurky
+		Tooltip: 
+	}
+
+	LurkyStaff: {
+		DisplayName: Bâton de Lurky
+		Tooltip: "Tire une éléctrosphère"
+	}
+
+	LurkySword: {
+		DisplayName: Épée de Lurky
+		Tooltip: Une épée possiblement équilibrée
+	}
+
+	Pickamaxe: {
+		DisplayName: Piomartiache
+		Tooltip: Tout à la fois
+	}
+
+	PlasmaGun: {
+		DisplayName: Fusil Plasma
+		Tooltip: Converti les balles en balles de plasma
+	}
+}
+
+Projectiles.PlasmaProj.DisplayName: Plasma Proj
