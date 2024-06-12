@@ -21,12 +21,12 @@ Items: {
 
 	LurkyPickaxe: {
 		DisplayName: Pioche de Lurky
-		Tooltip: 
+		Tooltip: ""
 	}
 
 	LurkyStaff: {
 		DisplayName: Bâton de Lurky
-		Tooltip: "Tire une éléctrosphère"
+		Tooltip: Tire une éléctrosphère
 	}
 
 	LurkySword: {
@@ -42,6 +42,59 @@ Items: {
 	PlasmaGun: {
 		DisplayName: Fusil Plasma
 		Tooltip: Converti les balles en balles de plasma
+	}
+}
+
+Mods: {
+	Hyrulish: {
+		Items: {
+			LurkyEmblem: {
+				// DisplayName: Lurky Emblem
+				// Tooltip: ""
+			}
+
+			LurkyManual: {
+				// DisplayName: Lurky Manual
+				// Tooltip: ""
+			}
+
+			LurkysGift: {
+				// DisplayName: Lurkys Gift
+				// Tooltip: ""
+			}
+
+			LurkyBow: {
+				// DisplayName: Lurky Bow
+				// Tooltip: ""
+			}
+
+			LurkyPickaxe: {
+				// DisplayName: Lurky Pickaxe
+				// Tooltip: ""
+			}
+
+			LurkyStaff: {
+				// DisplayName: Lurky Staff
+				// Tooltip: ""
+			}
+
+			LurkySword: {
+				// DisplayName: Lurky Sword
+				// Tooltip: ""
+			}
+
+			Pickamaxe: {
+				// DisplayName: Pickamaxe
+				// Tooltip: ""
+			}
+
+			PlasmaGun: {
+				// DisplayName: Plasma Gun
+				// Tooltip: ""
+			}
+		}
+
+		// Projectiles.PlasmaProj.DisplayName: Plasma Proj
 	}
 }
 
