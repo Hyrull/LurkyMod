@@ -40,7 +40,7 @@ namespace Hyrulish.Projectiles
 			Lighting.Brightness(1, 1);
 
 		}
-		public override void Kill(int timeLeft)
+		public override void OnKill(int timeLeft)
 		{
 			Dust.NewDust(Projectile.position, Projectile.width, Projectile.height, DustID.Cloud, 0f, 0f, 0, default, 1f);
 		}
