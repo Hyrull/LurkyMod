@@ -1,6 +1,7 @@
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using CalamityMod;
 
 namespace Hyrulish.Players
 {
@@ -59,7 +60,8 @@ namespace Hyrulish.Players
                   (ItemID.WarmthPotion, BuffID.Warmth),
                   (ItemID.InfernoPotion, BuffID.Inferno),
                   (ItemID.FishingPotion, BuffID.Fishing),
-                  (ItemID.Ale, BuffID.Tipsy)
+                  (ItemID.Ale, BuffID.Tipsy),
+                  (ModContent.ItemType<CalamityMod.Items.Potions.ZergPotion>(),  ModContent.BuffType<CalamityMod.Buffs.Potions.Zerg>())
               };
 
             foreach ((int potionID, int buffID) in vanillaPotions)
@@ -70,23 +72,27 @@ namespace Hyrulish.Players
                 }
             }
 
-            //         // Check if Calamity is loaded
-            //     if (ModLoader.GetMod("CalamityMod") != null)
-            //     {
-            //     // Define the potion item IDs and their corresponding buff IDs for Calamity potions
-            //     (int potionID, int buffID)[] calamityPotions = new (int, int)[]
-            //     {
-            //         (ModContent.ItemType<CalamityMod.Items.Potions.ZergPotion>(),  ModContent.BuffType<CalamityMod.Buffs.Zerg>())
-            //     };
+                // Define the potion item IDs and their corresponding buff IDs for Calamity potions
+                (int potionID, int buffID)[] calamityPotions = new (int, int)[]
+                {
+                    (ModContent.ItemType<CalamityMod.Items.Potions.ZergPotion>(),  ModContent.BuffType<CalamityMod.Buffs.Potions.Zerg>())
+                };
 
-            //     foreach ((int potionID, int buffID) in calamityPotions)
-            //     {
-            //         if (HasPotionStack(potionID, 30))
-            //         {
-            //             Player.AddBuff(buffID, 2);
-            //         }
-            //     }
-            // }
+                foreach ((int potionID, int buffID) in calamityPotions)
+                {
+                Mod calamityMod = ModLoader.GetMod("CalamityMod");
+                if (calamityMod != null)
+                {
+                    if (HasPotionStack(potionID, 30))
+                    {
+                        Player.AddBuff(buffID, 2);
+                    }
+                }
+                else
+                {
+                    Mod.Logger.Warn("CalamityMod not loaded. Ensure it is installed and enabled.");
+                }
+            }
         }
 
         private bool HasPotionStack(int potionID, int requiredStack)

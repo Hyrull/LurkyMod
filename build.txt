@@ -1,3 +1,5 @@
 displayName = Lurky's Mod
 author = Hyrul
 version = 0.23
+dllReferences = CalamityMod
+modReferences = CalamityMod
